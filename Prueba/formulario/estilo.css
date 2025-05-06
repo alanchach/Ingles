@@ -1,0 +1,71 @@
+ /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8bfb5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+ /* Formulario */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Etiqueta */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Campos de entrada y textarea */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón azul */
+button {
+    width: 100%;
+    padding: 10px;
+    background: deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Botón rojo */
+.boton button {
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Animacion para los botones */
+button:hover, .boton button:hover {
+    opacity: 0.8;
+}
